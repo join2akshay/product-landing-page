@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+    
+*
+{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+#head_icon
+{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+#h
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    width: 50px;
+    vertical-align:super;
+    font-weight: 600;
+}
