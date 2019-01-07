@@ -133,6 +133,12 @@ a{
     width: 80vw;
     padding: 5px;
   }
+  #aboutUs
+  {
+      align-items: center;
+      justify-content: center;
+      margin-left: 75px;
+  }
 @media screen and (max-width:600px)
 {
     header
@@ -175,18 +181,19 @@ a{
     }
 }
 
+
 @keyframes yourAnimation{
     0%{
-        transform: rotate(0deg);
+        transform: scale(15) translateX(35px) translateY(25px);
         }
     50%{
-        transform: rotate(180deg);
+        transform: scale(9) translateX(25px) translateY(15px);
         }
     100%{
-        transform: rotate(360deg);
+        transform: scale(1.5);
         }
 }
 
 img{
-    animation: yourAnimation 2s infinite 0s linear;
+    animation: yourAnimation 2s 1 0s linear;
 }
