@@ -67,7 +67,7 @@ a{
 .container {
     max-width: 1000px;
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
   }
   .grid {
     display: flex;
@@ -136,10 +136,8 @@ a{
   }
   #aboutUs
   {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 75px;
+    max-width: 560px;
+    width: 100%;
   }
   #pricing
   {
@@ -185,6 +183,7 @@ a{
   }
 @media screen and (max-width:600px)
 {
+
     header
     {
         flex-wrap: wrap;
@@ -196,6 +195,7 @@ a{
         align-items: center;
         justify-content: center;
         text-align: center;
+
     }
     #logo img
     {
@@ -223,6 +223,44 @@ a{
         padding-bottom: 5px;
         font-size: 6vw;
     }
+
+    #section1
+    {
+        margin-top:200px;
+    }
+    #features
+    {
+        margin-top: 50px;
+    }
+    #features #icon
+{
+    font-size: 2.5em;
+    height: 50px;
+}
+#features #desc
+{
+    height: 50px;
+}
+#aboutUs
+{
+    margin-top:50px;
+    
+}
+#pricing
+{
+    flex-direction: column;
+}
+#priceBox
+{
+   
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+
     
 }
 
