@@ -26,6 +26,7 @@ header
     top: 0;
     min-height: 75px;
   padding: 0px 120px;
+  background-color: #eee;
 }
 #logo
 {
@@ -106,7 +107,7 @@ a{
     height: 25px;
     border: 1px solid #e4d9d9;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     color: black;
     border-radius: 10px;
 }
@@ -135,9 +136,52 @@ a{
   }
   #aboutUs
   {
+      display: flex;
       align-items: center;
       justify-content: center;
       margin-left: 75px;
+  }
+  #pricing
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 60px;
+  }
+  #priceBox
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+  }
+  #threeMonth, #sixMonth ,#tewelMonth
+  {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+      
+  }
+  #priceBox h2
+  {
+    margin-top: 15px;
+  }
+  #priceBox ul
+  {
+      margin: 15px 0;
+  }
+  #priceBox li
+  {
+      margin: 5px 0;
+      list-style: none;
   }
 @media screen and (max-width:600px)
 {
@@ -179,6 +223,7 @@ a{
         padding-bottom: 5px;
         font-size: 6vw;
     }
+    
 }
 
 
@@ -194,6 +239,6 @@ a{
         }
 }
 
-img{
+.ani img{
     animation: yourAnimation 2s 1 0s linear;
 }
